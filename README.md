@@ -27,7 +27,7 @@ Assuming you have already installed the necessary dependencies.
 Clone this repository:
 
 ```
-git clone https://github.com/gabrielsouzadev/tera-code-challenge
+git clone https://github.com/gabrielsouzadev/adp-challenge-front.git
 ```
 
 Enter the folder and install the dependencies:
