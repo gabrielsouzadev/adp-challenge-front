@@ -1,0 +1,40 @@
+{
+    "root": "./src",
+    "main": "./src/index.html",
+    "vendor": [
+        "node_modules/angular/angular.js",
+        "node_modules/angular-resource/angular-resource.js",
+        "node_modules/angular-cache/dist/angular-cache.js",
+        "node_modules/@uirouter/angularjs/release/angular-ui-router.js",
+        "node_modules/oclazyload/dist/ocLazyLoad.js"
+    ],
+    "js": [
+        "./src/app/**/*.module.js",
+        "./src/app/**/*.js",
+        "!./src/app/**/*.spec.js"
+    ],
+    "sass": [
+        "./src/assets/scss/app.scss"
+    ],
+    "html": [
+        "./src/**/*.html"
+    ],
+    "watchSass": [
+        "./src/assets/scss/**/*.scss"
+    ],
+    "css": [
+        "./src/css"
+    ],
+    "dist": [
+        "./dist"
+    ],
+    "dist_vendor": [
+        "./dist/js/"
+    ],
+    "dist_css": [
+        "./dist/css/"
+    ],
+    "dist_js": [
+        "./dist/js/"
+    ]
+}

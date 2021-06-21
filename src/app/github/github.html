@@ -1,0 +1,11 @@
+<div class="github">
+    <div class="text-center text-sm-start">
+        <h5 class="fw-bold mb-4 mb-md-5">Subscribers: {{ vm.totalSubscribers }}</h5>
+    </div>
+    <ui-table
+        fields="vm.fields"
+        data="vm.repositories"
+        on-select-row="vm.onAddRepository(item)"
+    >
+    </ui-table>
+</div>

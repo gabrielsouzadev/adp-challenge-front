@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
+
+        <title>ADP - Challenge</title>
+
+        <base href="/" />
+
+        <!-- styles:css -->
+        <link rel="stylesheet" href="css/app.css" />
+        <!-- endinject -->
+    </head>
+    <body>
+        <div class="app" ng-app="app">
+            <div class="container-fluid">
+                <ui-view></ui-view>
+            </div>
+        </div>
+
+        <!--vendor:js-->
+        <script src="../node_modules/angular/angular.js?v=1624249408855"></script>
+        <script src="../node_modules/angular-resource/angular-resource.js?v=1624249408855"></script>
+        <script src="../node_modules/angular-cache/dist/angular-cache.js?v=1624249408855"></script>
+        <script src="../node_modules/@uirouter/angularjs/release/angular-ui-router.js?v=1624249408855"></script>
+        <script src="../node_modules/oclazyload/dist/ocLazyLoad.js?v=1624249408855"></script>
+        <!-- endinject -->
+
+        <!-- app:js -->
+        <script src="app/app.module.js?v=1624249408855"></script>
+        <script src="app/core/core.module.js?v=1624249408855"></script>
+        <script src="app/layout/layout.module.js?v=1624249408855"></script>
+        <script src="app/github/github.module.js?v=1624249408855"></script>
+        <script src="app/widgets/widges.module.js?v=1624249408855"></script>
+        <script src="app/blocks/exception/exception.module.js?v=1624249408855"></script>
+        <script src="app/blocks/logger/logger.module.js?v=1624249408855"></script>
+        <script src="app/blocks/router/router.module.js?v=1624249408855"></script>
+        <script src="app/core/config.js?v=1624249408855"></script>
+        <script src="app/core/constants.js?v=1624249408855"></script>
+        <script src="app/github/github.controller.js?v=1624249408855"></script>
+        <script src="app/github/github.routes.js?v=1624249408855"></script>
+        <script src="app/blocks/exception/exception.handler.js?v=1624249408855"></script>
+        <script src="app/blocks/exception/exception.js?v=1624249408855"></script>
+        <script src="app/blocks/logger/logger.js?v=1624249408855"></script>
+        <script src="app/blocks/router/router.helper.js?v=1624249408855"></script>
+        <script src="app/services/factories/github.service.js?v=1624249408855"></script>
+        <script src="app/widgets/table/table.directive.js?v=1624249408855"></script>
+        <!-- endinject -->
+    </body>
+</html>
